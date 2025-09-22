@@ -1,0 +1,4 @@
+anvil --block-time 1 &
+export RPC_URL=http://127.0.0.1:8545
+export PRIVATE_KEY=<anvil_privkey_0>
+forge script script/Deploy.s.sol:Deploy --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
