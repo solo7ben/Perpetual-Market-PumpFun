@@ -1,0 +1,6 @@
+forge script script/ListMarket.s.sol:ListMarket \
+  --rpc-url $RPC_URL \
+  --private-key $PRIVATE_KEY \
+  --broadcast \
+  --sig "run(address,address,uint16,uint16)" \
+  <assetAddress> <oracleAdapterAddress> 10 50
