@@ -1,0 +1,2 @@
+# requires RPC_URL in env and config/addresses.json
+npx ts-node tasks/leaderboard.ts
