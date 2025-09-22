@@ -1,0 +1,22 @@
+{
+  "name": "pumpfun-perp-market",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint:sol": "npx solhint 'contracts/**/*.sol'",
+    "fmt": "prettier --write '**/*.{sol,ts,js,json,md}'",
+    "leaderboard": "ts-node tasks/leaderboard.ts",
+    "recycle": "ts-node tasks/recycle.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "prettier": "^3.3.3",
+    "solhint": "^4.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "viem": "^2.13.6"
+  }
+}
