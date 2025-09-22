@@ -1,0 +1,4 @@
+{
+  "anvil": { "chainId": 31337, "rpc": "http://127.0.0.1:8545" },
+  "sepolia": { "chainId": 11155111, "rpc": "https://rpc.sepolia.org" }
+}
